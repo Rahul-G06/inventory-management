@@ -1,0 +1,29 @@
+body{
+    background-image: url('background.jpg');
+  background-size: cover;         
+  background-repeat: no-repeat;    
+  background-position: center;    
+  height: 100vh;
+  justify-content: center; 
+  align-items: center;
+}
+h1{
+    color :white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+form{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-self: center;
+    width:400px;
+    height: 200px;
+    text-align: center;
+    border: solid;
+    border-color: black;
+    background-color: rgb(96, 126, 249);
+    border-radius: 5px;
+    margin: 0 auto;  /* centers horizontally */
+  display: block;
+  width: 300px
+
+}
