@@ -21,7 +21,7 @@ li {
 
 li a {
   display: block;
-  color: rgb(11, 143, 252);            
+  color: white;            
   text-align: center;
   padding: 14px 16px;          
   text-decoration: none;      
@@ -31,4 +31,63 @@ li a {
 
 li a:hover {
   background-color: #111;      
+}
+h2{
+  text-align: center;
+  color: rgb(72, 72, 234);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form-container{
+  display : flex;
+  justify-content: center;
+  gap:20px;
+  flex-wrap: nowrap;
+}
+#f1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(114, 180, 239);
+    text-align: center;
+    border: solid white;
+    background-color: rgb(0, 0, 2);
+    border-radius: 15px;
+    width: 500px;
+    height: 450px;
+    margin: 0; 
+}
+#f2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(114, 180, 239);
+    text-align: center;
+    border: solid white;
+    background-color: rgb(0, 0, 2);
+    border-radius: 15px;
+    width: 500px;
+    height: 450px;
+    margin: 0; 
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #2731eb;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=text] {
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: white;
+  height: 10%;
+   width: 80%;
+}
+label {
+    display: block; 
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 15px; 
+    margin-bottom: 2px;
+    padding-left: 10px; 
 }

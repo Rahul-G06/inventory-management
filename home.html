@@ -5,9 +5,34 @@
         <link rel = 'stylesheet' href="home.css">
     </head>
     <body>
+
 <ul>
   <li><a href="Login.html">Back to Login</a></li>
   <li><a href="#contact">Contact Us</a></li>
+  <li><a href="#inventory"> View Inventory</a></li>
 </ul>
+        <h2> Welcome to Inventory Management!</h2>
+         <div class = 'form-container'>
+        <form id = "f1">
+            <h4> Add to the Inventory</h4>
+            <label style="text-align: left;"> Item ID </label><br>
+            <input type="text" placeholder="Enter ID"><br><br>
+            <label style="text-align: left;"> Item Name </label><br>
+            <input type = "text" placeholder="Enter item name"><br><br>
+            <label style="text-align: left;"> Quantity </label><br>
+            <input type = "text" placeholder="Enter quantity"><br><br>
+            <input type = "submit" value="Add">
+        </form>
+        <form id = "f2">
+            <h4> Retrieve from Inventory</h4>
+            <label style="text-align: left;"> Item ID </label><br>
+            <input type="text" placeholder="Enter ID"><br><br>
+            <label style="text-align: left;"> Item Name </label><br>
+            <input type = "text" placeholder="Enter item name"><br><br>
+            <label style="text-align: left;"> Quantity </label><br>
+            <input type = "text" placeholder="Enter quantity"><br><br>
+            <input type = "submit" value="Retrieve">
+        </form>
+    </div>
     </body>
 </html>
