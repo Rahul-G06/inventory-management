@@ -8,19 +8,21 @@ body{
   align-items: center;
 }
 h1{
-    color :white;
+    color :rgb(90, 123, 254);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
+
 form{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(114, 180, 239);
     align-self: center;
     width:400px;
-    height: 200px;
+    height: 180px;
     text-align: center;
     border: solid;
-    border-color: black;
-    background-color: rgb(96, 126, 249);
+    border-color: white;
+    background-color: rgb(0, 0, 02);
     border-radius: 5px;
     margin: 0 auto;  /* centers horizontally */
   display: block;
