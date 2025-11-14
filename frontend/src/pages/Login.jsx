@@ -5,12 +5,25 @@ function Login() {
 
   return (
     <>
-        <div className="relative">
-            <div className="bg-[#63bfe3] rounded-3xl border-3 border-[#000000] mx-auto w-96 h-120">
-                <h1>Login</h1>
-                <input></input>
-            </div>
-        </div> 
+      <h1 
+      className="text-[#5a7bfe] text-center font-[Franklin_Gothic_Medium, Arial, sans-serif]"
+      >Inventory Management</h1>
+      <br />
+      <br />
+      <br />
+      <br />
+      <form action="home.html" 
+          className="text-[#72b4ef]"
+        >
+        <p>Login</p>
+        <input type="text" placeholder="Username" />
+        <br />
+        <br />
+        <input type="password" placeholder="Password" />
+        <br />
+        <br />
+        <input type="submit" value="Log in" />
+      </form>
     </>
   )
 }
